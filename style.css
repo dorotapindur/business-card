@@ -25,14 +25,12 @@ html {
   }
 
   .person {
-     
+     display: flex;
+     align-items: flex-start;
   }
   .person__picture {
-    width: 148px;
     border-radius: 50%;
-  }
-  .text-wrapper {
-      
+    margin-right: 32px;
   }
   .person__info {
       margin-bottom: 24px;
@@ -53,9 +51,10 @@ html {
       line-height: 22px;
       margin: 0;
   }
-  .person__description--with-margin {
+  .bottom-margin {
       margin-bottom: 22px;
   }
+  
   .orange-text {
       color: #ED6D05;
   }
