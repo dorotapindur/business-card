@@ -56,5 +56,12 @@ html {
   .person__description--with-margin {
       margin-bottom: 22px;
   }
+  .orange-text {
+      color: #ED6D05;
+  }
+  .link {
+      color: #E20613;
+      text-decoration: none;
+  }
 
   
