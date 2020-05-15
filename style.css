@@ -7,31 +7,34 @@ html {
   }
 
   body {
-    background-color: #2C2141;
+    background-image: url("violin-background.jpg");
+    background-size: cover;
+    background-position: center center;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .main {
-      background-color: #F8F8F8;
-      width: 624px;
-      min-height: 320px;
-      border-radius: 16px;
-      margin: 16px;
-      padding: 32px;
+    background: radial-gradient(farthest-corner at 110px 110px, #ffffffe5 30%, #bdada1e5 100%);
+    width: 624px;
+    min-height: 320px;
+    border-radius: 0 16px 16px;
+    margin: 16px;
+    padding: 32px;
+    color: #4d2615;
   }
 
-  .person {
-     display: flex;
-     align-items: flex-start;
-  }
   .person__picture {
     border-radius: 50%;
     margin-right: 32px;
+    margin-bottom: 20px;
+    width: 148px;
+    float: left;
   }
+
   .person__info {
       margin-bottom: 24px;
   } 
@@ -39,17 +42,22 @@ html {
       font-size: 36px;
       font-weight: normal;
       margin: 0;
+      display: inline-block;
   }
   .person__profession {
       margin: 0;
       font-style: italic;
-      font-size: 18px;
-      color: #545454;
+      font-size: 16px;
+      color: #5c4237;
+      word-spacing: -3px;
+ 
   }
   .person__description {
       font-size: 16px;
       line-height: 22px;
       margin: 0;
+      text-align: justify;
+      word-wrap: break-word;
   }
   .bottom-margin {
       margin-bottom: 22px;
@@ -59,8 +67,16 @@ html {
       color: #ED6D05;
   }
   .link {
-      color: #E20613;
+      color: #df1001;
       text-decoration: none;
+      font-size: 16px;
+  }
+  .link--leopoldinum {
+    color: #ED6D05;
+    text-decoration: none;
+  }
+  .link--leopoldinum:hover {
+    color: #df1001;
   }
 
   
