@@ -28,9 +28,9 @@ html {
     position: relative;
   }
 
-  .svg-pencil {
+  .pencil {
     position: absolute;
-    bottom: 15px;
+    bottom: 20px;
     right: 40px;
     z-index: 1;
     -webkit-animation: rotate-center 4s ease-in-out infinite both;
