@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap');
+
 html {
     box-sizing: border-box;
   }
@@ -14,7 +16,12 @@ html {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
+  }
+  @media screen and (max-width: 700px) {
+    body {
+      background-image: url("kafelki.jpg");
+    }
   }
 
   .main {
@@ -27,6 +34,14 @@ html {
     color: #4d2615;
     position: relative;
   }
+  @media screen and (max-width: 700px) {
+    .main {
+      background: rgb(255, 251, 246);
+      border-radius: 16px;
+      border: 3px solid rgb(165, 38, 0);
+    }
+  }
+ 
 
   .pencil {
     position: absolute;
@@ -87,13 +102,22 @@ html {
     margin: 0;
     display: inline-block;
   }
+  @media screen and (max-width: 700px) {
+    .person__name {
+      font-size: 28px;
+    }
+  }
   .person__profession {
     margin: 0;
     font-style: italic;
     font-size: 16px;
     color: #5c4237;
     word-spacing: -3px;
- 
+  }
+  @media screen and (max-width: 700px) {
+    .person__profession {
+      font-size: 14px;
+    }
   }
   .person__description {
     font-size: 16px;
@@ -101,6 +125,11 @@ html {
     margin: 0;
     text-align: justify;
     word-wrap: break-word;
+  }
+  @media screen and (max-width: 700px) {
+    .person__description {
+      font-size: 14px;
+    }
   }
   .bottom-margin {
     margin-bottom: 22px;
