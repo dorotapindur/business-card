@@ -1,6 +1,6 @@
 # business-card
 
-This is my version of business-card homework from [WTF:Co Ten Frontend](https://cotenfrontend.pl) course. Afew words about me and my first simple CSS animation. 
+This is my version of business-card homework from [WTF: Co Ten Frontend](https://cotenfrontend.pl) course. A few words about me and my first simple CSS animation. 
 
 ![sketch](readme-sketch.jpg)
 
